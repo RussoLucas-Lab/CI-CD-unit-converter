@@ -16,7 +16,7 @@ class Unit:
     """
     name: str
     dimension: str  # e.g., "length", "mass", "temperature"
-
+    #safe change for CI demostration
 
 @dataclass(frozen=True)
 class Quantity:
